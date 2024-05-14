@@ -15,11 +15,14 @@ export const Navbar = () => {
     <Flex
       as={'header'}
       alignItems={'center'}
-      borderWidth={'thin'}
-      borderColor={'red'}
       minH={'50px'}
       justifyContent={'space-between'}
       px={8}
+      position={'fixed'}
+      w={'100%'}
+      top={'0'}
+      zIndex={1000}
+      backdropFilter={'blur(8px)'}
     >
       <Box>
         <Text>Logo</Text>
