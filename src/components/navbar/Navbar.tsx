@@ -22,7 +22,6 @@ export const Navbar = () => {
       w={'100%'}
       top={'0'}
       zIndex={1000}
-      backdropFilter={'blur(8px)'}
       textColor={'white'}
     >
       <Box>

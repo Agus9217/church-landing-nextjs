@@ -27,7 +27,7 @@ export const DesktopNavbar = ({ display }: Props) => {
               href={href}
               _hover={{
                 borderStyle: 'none',
-                color: 'blue.500'
+                color: 'blue.700'
               }}
               color={href == path ? 'blue.500' : undefined}
             >

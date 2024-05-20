@@ -11,7 +11,7 @@ export default function HomePage() {
         src={imgHero}
         maxWidth={'100%'}
         width={'100%'}
-        height={'600px'}
+        height={{ base:'600px', md:'auto' }}
         objectFit={'cover'}
         filter={'brightness(60%)'}
       />
@@ -24,10 +24,11 @@ export default function HomePage() {
         textAlign={'center'}
         maxW={'90%'}
         width={'100%'}
+        zIndex={50}
       >
         <Heading
           as={'h2'}
-          fontSize={{ base: '4xl', md: '6xl' }}
+          fontSize={{ base: '4xl', md: '6xl', lg: '8xl' }}
           textShadow={'xl'}
           py={2}
         >
