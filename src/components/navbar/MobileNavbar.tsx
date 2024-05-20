@@ -21,6 +21,7 @@ export const MobileNavbar = ({ display }: Props) => {
           as={IconButton}
           icon={<RxHamburgerMenu />}
           variant={'outline'}
+          colorScheme={'white'}
         />
         <MenuList>
           {

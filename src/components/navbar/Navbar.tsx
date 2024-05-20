@@ -23,6 +23,7 @@ export const Navbar = () => {
       top={'0'}
       zIndex={1000}
       backdropFilter={'blur(8px)'}
+      textColor={'white'}
     >
       <Box>
         <Text>Logo</Text>
